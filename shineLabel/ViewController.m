@@ -74,29 +74,29 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-//    [super touchesBegan:touches withEvent:event];
-//    if (self.shineLabel.isVisible) {
-//        [self.shineLabel fadeOutWithCompletion:^{
-//            [self changeText];
-//            [UIView animateWithDuration:2.5 animations:^{
-//                if (self.wallpaper1.alpha > 0.1) {
-//                    self.wallpaper1.alpha = 0;
-//                    self.wallpaper2.alpha = 1;
-//                }
-//                else {
-//                    self.wallpaper1.alpha = 1;
-//                    self.wallpaper2.alpha = 0;
-//                }
-//            }];
-//            [self.shineLabel shine];
-//        }];
-//    }
-//    else {
-//        [self.shineLabel shine];
-//    }
-
-    [self.shineLabel fadeOut];
-    [self.shineLabel shine];
+    [super touchesBegan:touches withEvent:event];
+    if (self.shineLabel.isVisible) {
+        [self.shineLabel fadeOutWithCompletion:^{
+            [self changeText];
+            [UIView animateWithDuration:2.5 animations:^{
+                if (self.wallpaper1.alpha > 0.1) {
+                    self.wallpaper1.alpha = 0;
+                    self.wallpaper2.alpha = 1;
+                }
+                else {
+                    self.wallpaper1.alpha = 1;
+                    self.wallpaper2.alpha = 0;
+                }
+            }];
+            [self.shineLabel shine];
+        }];
+    }
+    else {
+        [self.shineLabel shine];
+    }
+    //UNCOMMENT THIS TO JUST FADEOUT AND SHINE
+//    [self.shineLabel fadeOut];
+//    [self.shineLabel shine];
 }
 
 - (void)changeText
