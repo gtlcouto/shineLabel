@@ -14,6 +14,7 @@
 		357801511ACB8B2700C051A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357801501ACB8B2700C051A4 /* Images.xcassets */; };
 		357801541ACB8B2700C051A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357801521ACB8B2700C051A4 /* LaunchScreen.xib */; };
 		357801601ACB8B2700C051A4 /* shineLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3578015F1ACB8B2700C051A4 /* shineLabelTests.m */; };
+		3578016B1ACB8B4300C051A4 /* RQShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3578016A1ACB8B4300C051A4 /* RQShineLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		357801591ACB8B2700C051A4 /* shineLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shineLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3578015E1ACB8B2700C051A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3578015F1ACB8B2700C051A4 /* shineLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shineLabelTests.m; sourceTree = "<group>"; };
+		357801691ACB8B4300C051A4 /* RQShineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQShineLabel.h; sourceTree = "<group>"; };
+		3578016A1ACB8B4300C051A4 /* RQShineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQShineLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		357801421ACB8B2700C051A4 /* shineLabel */ = {
 			isa = PBXGroup;
 			children = (
+				357801691ACB8B4300C051A4 /* RQShineLabel.h */,
+				3578016A1ACB8B4300C051A4 /* RQShineLabel.m */,
 				357801471ACB8B2700C051A4 /* AppDelegate.h */,
 				357801481ACB8B2700C051A4 /* AppDelegate.m */,
 				3578014A1ACB8B2700C051A4 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				3578014C1ACB8B2700C051A4 /* ViewController.m in Sources */,
 				357801491ACB8B2700C051A4 /* AppDelegate.m in Sources */,
 				357801461ACB8B2700C051A4 /* main.m in Sources */,
+				3578016B1ACB8B4300C051A4 /* RQShineLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
